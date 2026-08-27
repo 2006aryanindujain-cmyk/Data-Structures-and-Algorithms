@@ -1,5 +1,6 @@
-#include <iostream>
+// if elseif used to make decisions in a program - executes different code blocks based on whether a condition is true or false.
 
+#include <bits/stdc++.h>
 int main()
 {
     int number;
