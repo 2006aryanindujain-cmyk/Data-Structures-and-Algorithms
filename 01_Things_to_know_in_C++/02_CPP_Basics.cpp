@@ -1,6 +1,19 @@
-#include <iostream>
-#include <string>
+// A variable is a name memory location to store data.
 
+// int -> 4 bytes
+// float -> 4 bytes
+// double -> 8 bytes
+// char -> 1 byte
+// bool -> 1 byte
+// string -> size varies
+
+// Constants are the values that don't change throughout the program.
+// const int x =10;
+
+// Single-line comment
+/*Multi-line comment*/
+
+#include <bits/stdc++.h>
 int main()
 {
     // integer types
