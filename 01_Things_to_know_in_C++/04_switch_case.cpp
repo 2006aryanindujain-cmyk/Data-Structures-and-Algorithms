@@ -1,5 +1,12 @@
-#include <iostream>
+// Switch case used to execute one block of code among multiple options, based on the value of a variable/expression - an
+// alternative to if-else conditions.
 
+// A switch statement necessitates that its expression results in a constant value. This can include constants and arithmetic operations.
+
+// Switch statement are exclusively designed to handle integer or character values. Ensure that the expression provides
+// value of type int or char.
+
+#include <bits/stdc++.h>
 int main()
 {
     int choice;
