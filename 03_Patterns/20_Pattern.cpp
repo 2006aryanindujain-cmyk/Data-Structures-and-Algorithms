@@ -3,6 +3,7 @@ using namespace std;
 int main()
 {
     int n;
+    cout << "Enter the numbers:";
     cin >> n;
     int stars;
     int spaces;
