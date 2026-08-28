@@ -5,6 +5,11 @@ int main()
     int n;
     cout << "enter the number: ";
     cin >> n;
+    if (n < 0)
+    {
+        cout << "Negative numbers are not Armstrong numbers." << endl;
+        return 0;
+    }
     cout << endl;
     int temp = n;
     int digits = 0;
@@ -18,7 +23,7 @@ int main()
     while (n != 0)
     {
         int rev = n % 10;
-        sum = sum + pow(rev, digits);
+        sum = sum + round(pow(rev, digits));
         n = n / 10;
     }
     if (sum == temp)
