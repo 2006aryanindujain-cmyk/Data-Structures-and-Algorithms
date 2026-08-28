@@ -30,3 +30,9 @@ int main()
     }
     return 0;
 }
+
+// Time Complexity:
+// n < 2 check          -> O(1)
+// Prime checking loop  -> O(√n)
+// Break on divisor     -> may terminate early
+// Worst Case           -> O(√n)
