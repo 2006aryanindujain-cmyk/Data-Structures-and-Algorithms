@@ -30,3 +30,11 @@ int main()
     }
     return 0;
 }
+
+// Let k = number of divisors of n.
+// Finding divisors  -> O(√n)
+// Sorting divisors  -> O(k log k)
+// Printing          -> O(k)
+// Time complexity = O(sqrt(n)) + O(klog(k)) + O(k) = O(sqrt(n) + klog(k) + k)
+// Since k ≤ O(√n) :- Time complexity = O(sqrt(n) + klog(k))
+// Worst Case -> O(√n log n)
