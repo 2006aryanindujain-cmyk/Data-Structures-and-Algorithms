@@ -7,6 +7,11 @@ int main()
     cout << "enter the number: ";
     cin >> n;
     cout << endl;
+    if (n <= 0)
+    {
+        cout << "Please enter a positive number." << endl;
+        return 0;
+    }
     for (int i = 1; i <= sqrt(n); i++)
     {
         if (n % i == 0)
