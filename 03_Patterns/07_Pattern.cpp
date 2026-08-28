@@ -2,9 +2,12 @@
 using namespace std;
 int main()
 {
-    for (int i = 0; i < 5; i++)
+    int n;
+    cout << "Enter the number:";
+    cin >> n;
+    for (int i = 0; i < n; i++)
     {
-        for (int j = i; j < 5 - 1; j++)
+        for (int j = i; j < n - 1; j++)
         {
             cout << " ";
         }
