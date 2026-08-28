@@ -52,9 +52,8 @@
 // Example :- 2 second limit -> O(2 * 10^8), not O(10^16).
 
 // Simple C++ examples using only loops
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
-
 int main()
 {
     int n = 5;
