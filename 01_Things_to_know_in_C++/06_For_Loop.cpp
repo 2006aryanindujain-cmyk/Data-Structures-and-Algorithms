@@ -1,10 +1,12 @@
-#include <iostream>
+// Used to repeat a block of code a specific number of times, based on initialization, condition and update.
+
+#include <bits/stdc++.h>
+using namespace std;
 int main()
 {
-    // simple for loop: print numbers 0 to 4
     for (int i = 0; i < 5; ++i)
     {
-        std::cout << "i = " << i << std::endl;
+        cout << "i = " << i << endl;
     }
     return 0;
 }
