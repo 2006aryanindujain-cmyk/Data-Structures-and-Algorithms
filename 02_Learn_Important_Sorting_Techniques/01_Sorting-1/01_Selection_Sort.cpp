@@ -46,8 +46,8 @@ int main()
     }
 }
 
-// Time Complexity:O(N^2),Selection sort runs in O(N²) time in the best, average, and worst
-// cases due to its nested loop structure. It makes approximately N(N-1)/2 comparisons, regardless of the array's
-// initial state. Even if no swaps are needed (best case), the number of comparisons remains the same.
+// Time Complexity:O(N^2),Selection sort runs in O(N²) time in the best, average, and worst cases due
+//                 to its nested loop structure. It makes approximately N(N-1)/2 comparisons, regardless of the array's
+//                 initial state. Even if no swaps are needed (best case), the number of comparisons remains the same.
 
 // Space Complexity: O(1) {No extra space used}.
