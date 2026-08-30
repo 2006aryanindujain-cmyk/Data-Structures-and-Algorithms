@@ -60,7 +60,7 @@ int main()
 // Time Complexity :- O(N), (where N = size of the array), for the best case.
 // Space Complexity :- O(1).
 
-// Optimized approach :-
+// Optimized Approach :-
 // -> The best case occurs if the given array is already sorted. We can reduce the time complexity to O(N) by
 //    just adding a small check inside the loops.
 // -> We will check in the first iteration if any swap is taking place. If the array is already sorted no swap
