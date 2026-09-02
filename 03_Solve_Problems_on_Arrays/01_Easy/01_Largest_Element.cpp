@@ -12,7 +12,7 @@ int main()
         cin >> arr[i];
     }
     int i = 0;
-    int max = arr[0];
+    int max = 0;
     while (i < n)
     {
         if (arr[i] > arr[max])
