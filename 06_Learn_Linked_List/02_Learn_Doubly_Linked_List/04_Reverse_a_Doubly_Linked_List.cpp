@@ -57,18 +57,27 @@ void traversal(Node *head)
     }
     cout << endl;
 }
-Node* reverse(Node* head)
+Node *reverse(Node *head)
 {
-    Node*temp=head;
-    Node*prev = nullptr;
-    Node* next = head->next;
-    while(temp)
+    if (head == nullptr || head->next == nullptr)
     {
-        temp->prev=prev;
-        next->prev=temp;
-        temp=temp->next;
+        return head;
     }
-    return temp;
+    Node *temp = head;
+    stack<int> s;
+    while (temp)
+    {
+        s.push(temp->data);
+        temp = temp->next;
+    }
+    temp = head;
+    while (temp)
+    {
+        temp->data = s.top();
+        s.pop();
+        temp = temp->next;
+    }
+    return head;
 }
 int main()
 {
@@ -77,7 +86,7 @@ int main()
     cin >> n;
     vector<int> arr;
     int value;
-    cout << "Enter the elements in a vector";
+    cout << "Enter the elements in a vector: ";
     for (int i = 0; i < n; i++)
     {
         cin >> value;
@@ -85,7 +94,7 @@ int main()
     }
     Node *head = Array2DoublyLL(arr);
     traversal(head);
-    head=reverse(head);
+    head = reverse(head);
     traversal(head);
     return 0;
 }
