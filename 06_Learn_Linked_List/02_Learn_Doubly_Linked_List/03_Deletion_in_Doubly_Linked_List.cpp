@@ -2,7 +2,6 @@
 // in each node. This enables seamless traversal in both directions, making them a valuable tool for
 // various advanced data structure applications.
 
-// Creation of doubly linked list :-
 #include <bits/stdc++.h>
 using namespace std;
 class Node
@@ -175,7 +174,7 @@ int main()
     cin >> n;
     vector<int> arr;
     int value;
-    cout << "Enter the elements in a vector";
+    cout << "Enter the elements in a vector: ";
     for (int i = 0; i < n; i++)
     {
         cin >> value;
