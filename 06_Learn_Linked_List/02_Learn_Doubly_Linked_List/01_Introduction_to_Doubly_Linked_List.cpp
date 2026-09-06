@@ -67,7 +67,7 @@ int main()
     cin >> n;
     vector<int> arr;
     int value;
-    cout << "Enter the elements in a vector";
+    cout << "Enter the elements in a vector: ";
     for (int i = 0; i < n; i++)
     {
         cin >> value;
