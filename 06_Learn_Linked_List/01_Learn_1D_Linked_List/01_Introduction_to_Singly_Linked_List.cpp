@@ -24,25 +24,38 @@
 // -> Member Functions are the different ways to access the data variables. We can define member functions in two ways :-
 //    Inside Class :- When it is used within the class in which it is defined.
 //    Outside Class :- When it is used outside the class in which it is defined. One important point to note is that
-//                   we must use scope resolution :: operator for outside class member functions.
+//                     we must use scope resolution :: operator for outside class member functions.
 // ->There are two types of special member functions :-
 //   Constructors :- These are called by the compiler every time an object of the class is used.
 //                 There are three types of Constructors: Default Constructor, Parameterized Constructor, and Self Constructor.
+//   Destructors: It is the opposite of the constructor, called by the compiler after the object's scope ends.
 
 // Structures in C++ :-
-// -> Structures and classes in C++ differ because classes offer features like inheritance and polymorphism,
-//    while structures do not. Structures are used to group several different data types into one type. It also
-//    contains data members and member functions just like class and is declared using the keyword ‘struct’.
-// -> structs are public by default, whereas in the case of a class, objects of a class are private by default.
+// -> Structures and classes in C++ are very similar — both support 
+//    inheritance, polymorphism, and other OOP features. The main 
+//    differences are the default access modifier and the keyword used.
+//    Structures are used to group several different data types into 
+//    one type. It also contains data members and member functions 
+//    just like a class, and is declared using the keyword 'struct'.
+// -> Structs are public by default, whereas in the case of a class, 
+//    objects (members) of a class are private by default.
 
-// Member functions and data types :- Both can store data and perform functions and operations on the data stored.
-// Encapsulation :- Both can hide or show the data and functions depending on the situation.
-// Polymorphism, Inheritance, and Abstraction: are fundamental concepts developed for object-oriented programming
-//                                             that are not supported by structures but are with classes.
-// Access Modifier: Even though default structures are defined as public and classes are defined as private,
-//                  choosing an access specifier according to your need can change the default parameters.
-// Constructor and Destructor: Both can use these types of member functions.
+// Member functions and data types :- Both structs and classes can store data 
+//                                    and perform functions and operations on the 
+//                                    data stored.
+// Encapsulation :- Both can hide or show the data and functions depending 
+//                  on the situation (using access modifiers).
+// Polymorphism, Inheritance, and Abstraction :- These are fundamental concepts of object-oriented programming, 
+//                                               and BOTH structures and classes support  them in C++ (unlike in C, 
+//                                               where structs only store data with no OOP features).
+// Access Modifier :- By default, structures have public access and classes 
+//                                have private access. But this is just a DEFAULT  
+//                                — you can explicitlychoose public, private, or protected 
+//                                in either struct or class as per your need.
 
+// Constructor and Destructor :- Both structs and classes can use these 
+// types of member functions (default, parameterized, copy constructor, 
+// and destructor).
 // Creating a Linked List :-
 // #include <bits/stdc++.h>
 // using namespace std;
